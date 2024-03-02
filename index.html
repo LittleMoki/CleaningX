@@ -2,13 +2,13 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
 		<title>Cleaning X</title>
 		<link rel="shortcut icon" href="images/logo_top.png" type="image/x-icon" />
 		<link rel="stylesheet" href="css/reset.css" />
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/media.css" />
-		<script src="js/main.js" defer></script>
+		<script src="js/main.js" defer="defer"></script>
 	</head>
 	<body>
 		<!-- header -->
@@ -92,7 +92,7 @@
 			</div>
 		</header>
 		<!-- main -->
-		<main class="main">
+		<main class="main" id="home">
 			<section class="main__hero">
 				<div class="main__hero_content">
 					<div class="container">
@@ -128,11 +128,11 @@
 						</div>
 					</div>
 				</div>
-				<picture class="main__hero_img">
-					<img src="images/home.png" alt="home" class="main__hero_img__item" />
-				</picture>
+				<picture class="main__hero_img"
+					><img src="images/home.png" alt="home" class="main__hero_img__item"
+				/></picture>
 			</section>
-			<section class="services">
+			<section class="services" id="about">
 				<div class="container">
 					<div class="services__wrapper">
 						<div class="services__wrapper_content">
@@ -367,16 +367,15 @@
 					</div>
 				</div>
 			</section>
-			<section class="main__areas">
+			<section class="main__areas" id="services">
 				<div class="container">
 					<div class="main__areas_wrapper">
-						<picture class="main__areas_wrapper__img">
-							<img
+						<picture class="main__areas_wrapper__img"
+							><img
 								src="images/home_bg.png"
 								alt="home_bg"
 								class="main__areas_wrapper__img_item"
-							/>
-						</picture>
+						/></picture>
 						<div class="main__areas_wrapper__content">
 							<h2 class="title">We cover all areas of your home or office</h2>
 							<p class="subtitle">
@@ -412,13 +411,12 @@
 			<section class="main__different">
 				<div class="container">
 					<div class="main__different_wrapper">
-						<picture class="main__different_wrapper__img">
-							<img
+						<picture class="main__different_wrapper__img"
+							><img
 								src="images/clean_man_bg.png"
 								alt="clening_man"
 								class="main__different_wrapper__img_item"
-							/>
-						</picture>
+						/></picture>
 						<div class="main__different_wrapper__content">
 							<h2 class="title">What makes us different?</h2>
 							<p class="subtitle">
@@ -437,7 +435,6 @@
 										Year
 									</p>
 								</div>
-
 								<div class="main__different_wrapper__content_experience__item">
 									<p class="main__different_wrapper__content_experience__title">
 										5k<span>+</span>
@@ -464,7 +461,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="main__form">
+			<section class="main__form" id='contact'>
 				<div class="container">
 					<div class="main__form_wrapper">
 						<div class="main__form_wrapper__content">
@@ -503,55 +500,48 @@
 						</div>
 						<div>
 							<form class="main__form_wrapper__form">
-								<label class="main__form_wrapper__form_label">
-									Full name
+								<label class="main__form_wrapper__form_label"
+									>Full name
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Phone number
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Phone number
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Address
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Address
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Email
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Email
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Requested service
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Requested service
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Day of service
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Day of service
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
-								<label class="main__form_wrapper__form_label">
-									Add a note
+								/></label>
+								<label class="main__form_wrapper__form_label"
+									>Add a note
 									<input
 										type="text"
 										class="main__form_wrapper__form__label_input"
-									/>
-								</label>
+								/></label>
 							</form>
 							<button class="first_button">Submit message</button>
 						</div>
@@ -609,8 +599,7 @@
 						<p class="footer__wrapper_bottom__licenses_subtitle">
 							Copyright © Cleaning X | Designed by
 							<a href="#BRIX Templates">BRIX Templates</a> - Powered by
-							<a href="#Webflow">Webflow</a>
-							<a href="#Licenses">Licenses</a>
+							<a href="#Webflow">Webflow</a> <a href="#Licenses">Licenses</a>
 						</p>
 					</div>
 				</div>
